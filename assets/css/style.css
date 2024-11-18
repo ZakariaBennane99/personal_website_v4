@@ -377,7 +377,7 @@ h1 {
 }
 
 h2 {
-  font-size: clamp(32px, 8vw, 70px);
+  font-size: clamp(32px, 5vw, 70px);
   font-style: normal;
   font-weight: 700;
   line-height: 1.1;
@@ -829,8 +829,33 @@ body > section.hero__section.pt__80 > div > div > div.col-md-6.order-2.order-md-
   font-size: 1.1em;
 }
 
+.small_txt_subheading {
+  font-weight: 500;
+  font-size: 1.5em;
+  line-height: 1.5;
+}
+
+#typewriter {
+  margin-bottom: 10px;
+}
+
+.journey-desc {
+  margin-top: 20px;
+}
+
+.playfair__style.percentage-o {
+  font-style: normal;
+}
+
+.approach-titles {
+  font-size: 2em;
+  margin-bottom: 15px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
 .hero__section .hero__left h3 .small__txt {
-  font-size: 32px;
+  font-size: 25px;
   vertical-align: middle;
   line-height: clamp(24px, 4vw, 40px);
 }
